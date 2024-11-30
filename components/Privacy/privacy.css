@@ -1,0 +1,21 @@
+.spinner{
+    margin: auto;
+     height: 70vh;
+     align-items: center;
+ }
+ .info{
+     text-align: center;
+ }
+ 
+ .btnn{
+     position: relative;
+     left: 48%;
+ }
+ 
+ @media screen and (max-width:1024px) {
+     .btnn{
+         position: relative;
+         left: 38%;
+     }
+     
+ }

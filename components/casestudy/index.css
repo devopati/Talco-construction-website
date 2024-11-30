@@ -1,0 +1,37 @@
+.casestudy{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.case-study-filter button{
+  border: none;
+}
+.case-study-filter button:hover{
+    background-color: transparent;
+
+}
+.cases-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    gap: 30px;
+    transition: 2s;
+    padding-top: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10%;
+}
+.fade1 {
+    animation-name: fade1;
+    animation-duration: 3s;
+  }
+  
+@keyframes fade1 {
+    from {
+      opacity: 0.3;
+    }
+    to {
+      opacity: 01;
+    }
+  }

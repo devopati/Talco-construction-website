@@ -1,0 +1,27 @@
+
+button{
+    color: #080808;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 11px;
+    line-height: 40px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-width: 1px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+    background: none;
+
+}
+button:hover{
+    color: rgb(137, 199, 220);
+    border: 1px solid rgb(137, 199, 220);
+  font-weight: 800;
+    
+}

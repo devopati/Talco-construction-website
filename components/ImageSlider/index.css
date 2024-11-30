@@ -1,0 +1,27 @@
+.slideshow {
+  margin-bottom: 4px;
+  overflow: hidden;
+  width: 100%;
+ 
+  object-fit: fill;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 2000ms;
+} 
+
+.slide {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+
+}
+.slide img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+img{
+  object-fit: cover;
+}

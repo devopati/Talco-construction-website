@@ -1,0 +1,154 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ footer {
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1.2rem;
+    align-items: center;
+    margin-top: 0.8rem;
+  }
+  
+  .footer__frames {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 3rem;
+  }
+  .frame1{
+    margin-left: 0;
+  }
+  .footer__logo img{
+    height: 65px;
+    width: 75%;
+  }
+  .frame2{
+    text-align: center;
+  }
+  .subcsribe {
+    padding: 1.5rem 0;
+  }
+  #input {
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background: black;
+    color: white;
+    opacity: 0.95;
+  }
+  .subscribe-btn{
+    background : white;
+    margin-top: 2rem;
+  }
+  .subscribe-btn:hover{
+    color: black;
+    border: 0.1rem solid white;
+    font-weight: 300;
+  }
+  .footer__socials .icons {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer__socials a {
+    color: white;
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+  }
+  .footer__socials a:hover {
+    background: rgb(177, 176, 176);
+    color: black;
+    border: none;
+  }
+  
+  .footer__last {
+    display: flex;
+  }
+  .contact,
+  .privacy,
+  .about {
+    padding: 1.2rem;
+    cursor: pointer;
+  }
+  #footer__link{
+    text-decoration: none;
+    color: white;
+  }
+  #footer__link:hover{
+    color: rgb(177, 176, 176);
+  }
+  .line {
+    text-align: center;
+    border-bottom: 1.5px solid white;
+    width: 99%;
+    padding: 0.3rem;
+  }
+
+  
+  /* ============ MEDIA QUERIES (MEDIUM DEVICES) ========== */
+  @media screen and (max-width: 1024px) {
+    footer {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .footer__frames > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+    .frame1,
+    .frame2 {
+      padding: 1rem;
+    }
+    .subcsribe {
+      padding: 0;
+    }
+  }
+  
+  /* ============ MEDIA QUERIES (SMALL DEVICES) ========== */
+  @media screen and (max-width: 768px) {
+    .footer__frames {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+   
+    .footer__frames > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+    .footer__frames .frame2 {
+      padding: 0.5rem;
+    }
+    form {
+      display: block;
+    }
+    .btn {
+      margin-left: 0.3rem;
+    }
+    .footer__socials.icons {
+      padding: 1.6rem;
+    }
+  
+    .footer__last {
+      display: flex;
+    }
+    .frame1,
+    .frame2 {
+      padding: 0.5rem;
+    }
+    .subcsribe {
+      margin-top: 0.5rem;
+    }
+  }
+  

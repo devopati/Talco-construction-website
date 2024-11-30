@@ -1,0 +1,53 @@
+.main{
+    width: 100%;
+   min-width: 100%;
+
+}
+
+.home-btn{
+    margin-top: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.our-services{
+    text-align-last: left;
+    margin: 2.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8rem;
+}
+.our-services h3{
+    font-size: 0.9rem;
+}
+.our-services-left, .our-services-right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.service-class{
+    display: flex;
+    gap: 0.8rem;
+}
+.service-class h3{
+    margin-top: -0.2rem;
+}
+.icon{
+    color: rgb(47, 1, 1);
+}
+
+
+@media screen and (max-width:1024px) {
+    .residential__left__card.home-card{
+        display: none;
+    }
+   
+}
+
+
+@media screen and (max-width:996px) {
+    .our-services{
+        margin: auto;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}

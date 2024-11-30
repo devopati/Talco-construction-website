@@ -1,0 +1,40 @@
+.exact-news-container{
+    padding: 0.2rem;
+    text-align: center;
+    padding-top: 3.2rem;
+}
+.exact-news-header{
+    margin-bottom: 1.2rem;
+}
+
+.exact-news-header span, small{
+    color: grey;
+
+}
+.exact-news-description{
+    padding: 3.8rem;
+
+}
+.exact-news-icons{
+   
+    margin: 1.7rem;
+    text-align: center;
+    display: flex;
+    gap: 1.8rem;
+}
+.icon-container{
+    margin-top: 2.8rem;
+    margin: auto;
+    display: flex;
+    gap: 2.2rem;
+}
+.exact-news-btn{
+    margin: 2.1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .exact-news-description{
+        padding: 0.8rem;
+    
+    }
+}

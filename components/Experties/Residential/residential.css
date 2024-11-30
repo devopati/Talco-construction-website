@@ -1,0 +1,84 @@
+.residential__container{
+    padding-top: 0.1rem;
+    transition: all 0.3s ease;
+}
+
+.residential_cards-1{
+    display: grid;
+    grid-template-columns: 70% 25%;
+    gap: 5%;
+}
+.residential_cards-2{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 5%;
+    margin-top: 0.5rem;
+}
+.residential__left__card img{
+    width: 96%;
+}
+.residential__right__card2 img{
+    width: 96%;
+}
+
+.residential__right__card{
+    text-align: center;
+    padding-right: 0.8rem;
+    margin-top: 2.2rem;
+}
+.residential__left__card2{
+    
+    text-align: center;
+    
+}
+.paragraph{
+    margin: 1.8rem;
+    text-align: center;
+}
+.btnres{
+    margin-top: 0.8rem;
+}
+
+.residential__right__card2.small{
+    display: none;
+}
+.residential__button{
+    margin-top: 1.5rem;
+}
+
+ /* ============ MEDIA QUERIES (SMALL DEVICES) ========== */
+
+ @media screen and (max-width: 1024px) {
+  
+    .residential_cards-1, .residential_cards-2{
+        grid-template-columns: 100%;
+    }
+    .residential_cards-2{
+        margin-bottom: 3.5rem;
+    }
+    .residential__left__card img{
+        width: 100%;
+    }
+    .residential__right__card2{
+        display: none;
+    }
+    .residential__left__card2{
+        text-align: center;
+    }
+    #residential-paragraph{
+        margin-bottom: 0.5rem;
+    }
+    .paragraph{
+        text-align: center;
+        margin: 2.2rem;
+    }
+    .residential__right__card2.small{
+        display: grid;
+        padding-top: 0.8rem;
+        width: 98%;
+    }
+    .residential__right__card2.small img{
+        
+        width: 100%;
+    }
+ }
